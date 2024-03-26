@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
 
-
+    <div class="container">
+        <h1>Calcola il Prezzo del Tuo Biglietto</h1>
+        <div id="formCalcolo">
+            <div class="input-group">
+                <label for="km">Kilometri da percorrere:</label>
+                <input type="number" id="km">
+            </div>
+            <div class="input-group">
+                <label for="eta">Età del passeggero:</label>
+                <input type="number" id="eta">
+            </div>
+            <button type="submit">Calcola Prezzo</button>
+        </div>
+        <div id="risultato"></div>
+    </div>
 
     <script src="./js/script.js"></script>
 </body>
