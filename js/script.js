@@ -32,7 +32,7 @@
 // const finalPrice = basePrice - totalDiscount; // number
 // console.log("prezzo finale", finalPrice.toFixed(2));
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('click', function() {
     const button = document.querySelector('button'); // Preleva il bottone
     const risultatoDiv = document.getElementById('risultato'); // Preleva il div dove compare il risultato
 
